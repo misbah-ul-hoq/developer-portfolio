@@ -40,6 +40,21 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
+  padding-block: 30px;
+}
+
+.section-light-text {
+  color: var(--Dark-03, #757575);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+.section-dark-text {
+  color: var(--Dark-02, #474747);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
 
 /* header styles */
@@ -116,6 +131,12 @@ nav a {
   height: 676px;
 }
 
+/* main element styles */
+main {
+  max-width: 1140px;
+  margin-inline: auto;
+}
+
 /* about section styles */
 .about {
   border-radius: 10px;
@@ -123,3 +144,43 @@ nav a {
   margin-block: 130px;
   padding: 130px;
 }
+
+.about-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+/* about section styles ends  */
+
+/* what i do section styles */
+.what-i-do {
+  margin-bottom: 130px;
+}
+
+.what-i-do .section-description {
+  padding-inline: 130px;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 257px;
+  height: 357px;
+  padding: 30px;
+}
+
+.skill p {
+  text-align: left;
+}
+
+.skill h3 {
+  padding-block: 20px;
+}
+/* what i do section styles end */
