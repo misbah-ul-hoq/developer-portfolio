@@ -202,4 +202,32 @@ main section {
   font-weight: 700;
   margin-bottom: 30px;
 }
+
+.resume-item-title {
+  color: var(--Dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-item-institute {
+  margin-block: 10px 20px;
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-item-description {
+  color: var(--Dark-03, #757575);
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.resume-wrapper hr {
+  margin-block: 30px;
+}
+
+.resume button {
+  display: block;
+  margin: 50px auto;
+}
 /* resume section styles ends */
