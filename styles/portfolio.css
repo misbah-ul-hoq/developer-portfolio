@@ -137,6 +137,10 @@ main {
   margin-inline: auto;
 }
 
+main section {
+  margin-top: 130px;
+}
+
 /* about section styles */
 .about {
   border-radius: 10px;
@@ -184,3 +188,18 @@ main {
   padding-block: 20px;
 }
 /* what i do section styles end */
+
+/* resume section styles */
+.resume-wrapper {
+  margin-top: 70px;
+  display: flex;
+  gap: 71px;
+}
+
+.resume-column-title {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+/* resume section styles ends */
